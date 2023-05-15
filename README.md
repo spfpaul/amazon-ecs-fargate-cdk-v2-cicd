@@ -1,7 +1,7 @@
 # Amazon CI/CD pipeline deploying to ECS Fargate using CDK V2
 _A complete DevOps enabled sample containerized application_
 
-The project builds a complete sample containerized Flask application publically available on AWS, using Fargate, ECS, CodeBuild, and CodePipline to produce a fully functional pipline to continuously roll out
+This project builds a complete sample containerized Flask application publically available on AWS, using Fargate, ECS, CodeBuild, and CodePipline to produce a fully functional pipline to continuously roll out
 changes to your new app.
 
 ## Getting Started

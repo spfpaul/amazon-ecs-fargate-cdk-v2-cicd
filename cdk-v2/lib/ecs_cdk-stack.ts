@@ -39,7 +39,7 @@ export class EcsCdkStack extends cdk.Stack {
     const vpc = new ec2.Vpc(this, 'ecs-cdk-vpc', {
       cidr: '10.0.0.0/16',
       natGateways: 1,
-      maxAzs: 3  /* does a sample need 3 az's? */
+      maxAzs: 2  /* does a sample need 3 az's? */
     });
 
     const clusteradmin = new iam.Role(this, 'adminrole', {
